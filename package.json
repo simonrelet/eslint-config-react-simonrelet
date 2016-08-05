@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-simonrelet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My ESLint shareable config for React style guide",
   "main": "index.js",
   "scripts": {
@@ -22,13 +22,13 @@
   },
   "homepage": "https://github.com/simonrelet/eslint-config-react-simonrelet#readme",
   "peerDependencies": {
-    "eslint": ">=3.2.2"
+    "eslint": ">=2.10.2"
   },
   "dependencies": {
-    "eslint-config-simonrelet": "^0.0.2",
-    "eslint-plugin-react": "^6.0.0"
+    "eslint-config-simonrelet": "^0.0.3",
+    "eslint-plugin-react": "^5.2.2"
   },
   "devDependencies": {
-    "eslint": "^3.2.2"
+    "eslint": "^2.10.2"
   }
 }
