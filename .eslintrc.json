@@ -1,0 +1,59 @@
+{
+  "extends": [ "plugin:react/recommended", "simonrelet" ],
+  "plugins": [ "react" ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+  "rules": {
+    "react/display-name": [ "error", { "ignoreTranspilerName": true } ],
+    "react/jsx-boolean-value": [ "error", "never" ],
+    "react/jsx-closing-bracket-location": [ "error", "tag-aligned" ],
+    "react/jsx-curly-spacing": [ "error", "always", {
+      "spacing": { "objectLiterals": "never" }
+    }],
+    "react/jsx-equals-spacing": [ "error", "never" ],
+    "react/jsx-handler-names": [ "error", {
+      "eventHandlerPrefix": "handle",
+      "eventHandlerPropPrefix": "on"
+    }],
+    "react/jsx-indent": [ "error", 2 ],
+    "react/jsx-indent-props": [ "error", 2 ],
+    "react/jsx-max-props-per-line": [ "error", { "maximum": 1 } ],
+    "react/jsx-no-bind": [ "error", {
+      "ignoreRefs": true,
+      "allowArrowFunctions": true,
+      "allowBind": false
+    }],
+    "react/jsx-pascal-case": [ "error", { "allowAllCaps": true }],
+    "react/jsx-sort-props": [ "error", {
+      "callbacksLast": true,
+      "shorthandFirst": true,
+      "ignoreCase": false
+    }],
+    "react/jsx-space-before-closing": [ "error", "always" ],
+    "react/no-string-refs": [ "error" ],
+    "react/prefer-es6-class": [ "error", "always" ],
+    "react/prefer-stateless-function": [ "error" ],
+    "react/self-closing-comp": [ "error", {
+      "component": true,
+      "html": true
+    }],
+    "react/sort-comp": [ "error", {
+      "order": [
+        "static-methods",
+        "lifecycle",
+        "everything-else",
+        "/^handle.+$/",
+        "rendering"
+      ],
+      "groups": {
+        "rendering": [
+          "/^render.+$/",
+          "render"
+        ]
+      }
+    }],
+    "react/wrap-multilines": [ "error" ]
+  }
+}

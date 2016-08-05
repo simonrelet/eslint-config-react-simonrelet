@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-react-simonrelet",
+  "version": "0.0.1",
+  "description": "My ESLint shareable config for React style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonrelet/eslint-config-react-simonrelet.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "react"
+  ],
+  "author": "Simon Relet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonrelet/eslint-config-react-simonrelet/issues"
+  },
+  "homepage": "https://github.com/simonrelet/eslint-config-react-simonrelet#readme",
+  "peerDependencies": {
+    "eslint": ">=3.2.2"
+  },
+  "dependencies": {
+    "eslint-config-simonrelet": "^0.0.2",
+    "eslint-plugin-react": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2"
+  }
+}
