@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-react-simonrelet",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "My ESLint shareable config for React style guide",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
     "eslint": ">=2.10.2"
   },
   "dependencies": {
-    "eslint-config-simonrelet": "^0.0.3",
+    "eslint-config-simonrelet": "^1.0.0",
     "eslint-plugin-react": "^5.2.2"
   },
   "devDependencies": {

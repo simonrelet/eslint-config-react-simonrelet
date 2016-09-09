@@ -6,6 +6,7 @@
     "ecmaFeatures": { "jsx": true }
   },
   "rules": {
+    "jsx-quotes": [ "error", "prefer-single" ],
     "react/display-name": [ "error", { "ignoreTranspilerName": true } ],
     "react/jsx-boolean-value": [ "error", "never" ],
     "react/jsx-closing-bracket-location": [ "error", "tag-aligned" ],
